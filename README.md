@@ -22,9 +22,9 @@ The workflow transitions from **raw data processing in SQL**, to **exploratory d
 ---
 
 ## 🛠️ Tools & Technologies
-- **Data Storage & Querying:** SQL (PostgreSQL / MySQL)
+- **Data Storage & Querying:** SQL ( MySQL)
 - **Data Analysis:** Python (Pandas, NumPy)
-- **Data Visualization:** Power BI
+- **Data Visualization:** Power BI , Matplotlib , Seaborn
 - **Environment:** Jupyter Notebook (`.ipynb`)
 
 ---
