@@ -81,5 +81,8 @@ This project delivers **actionable business insights** that help retail teams:
 - Optimize marketing campaign timing
 
 ---
+## 📊 Power BI Dashboard Preview
+
+![Power BI Dashboard](dashboard.png)
 
 ⭐ *If you like this project, feel free to star the repository!*  
