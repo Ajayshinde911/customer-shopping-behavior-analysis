@@ -1,50 +1,85 @@
-🛍️ Customer Shopping Behaviour Analysis
-One-Line Summary
-An end-to-end data analytics project using SQL, Python, and Power BI to uncover consumer purchasing patterns and optimize retail marketing strategies.
+# 🛍️ Customer Shopping Behaviour Analysis
 
-Overview
-This project analyzes retail customer data to identify high-value segments and shopping trends. It transitions from raw data processing in SQL to exploratory data analysis (EDA) in Python, culminating in an interactive Power BI dashboard for executive-level reporting.
+### One-Line Summary
+An **end-to-end data analytics project** using **SQL, Python, and Power BI** to uncover consumer purchasing patterns and optimize retail marketing strategies.
 
-Dataset
-Source: final_customer_data.csv.
+---
 
-Content: Contains granular customer information including demographics (age, gender), purchase history, product categories, and spending behavior.
+## 📌 Overview
+This project analyzes retail customer data to identify **high-value customer segments** and **shopping trends**.  
+The workflow transitions from **raw data processing in SQL**, to **exploratory data analysis (EDA) in Python**, and finally to an **interactive Power BI dashboard** for executive-level insights.
 
-Tools and Technologies
-Data Storage & Querying: SQL (PostgreSQL/MySQL) for structured data management.
+---
 
-Data Analysis: Python (Pandas, NumPy) within Jupyter Notebooks for statistical deep-dives.
+## 📊 Dataset Information
+- **Source:** `final_customer_data.csv`
+- **Content Includes:**
+  - Customer demographics (Age, Gender)
+  - Purchase history
+  - Product categories
+  - Spending behavior
 
-Data Visualization: Power BI for interactive dashboarding and KPI tracking.
+---
 
-Environment: Jupyter Notebook (.ipynb) for reproducible research.
+## 🛠️ Tools & Technologies
+- **Data Storage & Querying:** SQL (PostgreSQL / MySQL)
+- **Data Analysis:** Python (Pandas, NumPy)
+- **Data Visualization:** Power BI
+- **Environment:** Jupyter Notebook (`.ipynb`)
 
-Methods Used
-Database Schema Design: Importing and structuring raw CSV data into relational tables using SQL.
+---
 
-Exploratory Data Analysis (EDA): Using Python to handle missing values, detect outliers, and analyze distributions of customer spend.
+## 🔍 Methods Used
+- **Database Schema Design**  
+  Imported and structured raw CSV data into relational tables using SQL.
 
-RFM Analysis (Recency, Frequency, Monetary): segmenting customers based on their transaction history to identify "Loyal" vs. "At-Risk" groups.
+- **Exploratory Data Analysis (EDA)**  
+  Handled missing values, detected outliers, and analyzed spending distributions using Python.
 
-Dashboarding: Creating DAX measures and interactive slicers in Power BI to filter data by region, category, and time.
+- **RFM Analysis (Recency, Frequency, Monetary)**  
+  Segmented customers to identify **Loyal**, **Potential**, and **At-Risk** groups.
 
+- **Dashboarding**  
+  Built interactive dashboards in Power BI using **DAX measures**, slicers, and filters by region, category, and time.
 
-Key Insights
-Demographic Drivers: Identified specific age groups and genders that contribute to the highest share of total revenue.
+---
 
-Category Performance: Discovered which product categories have the highest repeat purchase rate versus one-time buys.
+## 📈 Key Insights
+- **Demographic Drivers**  
+  Identified specific age groups and genders contributing the highest share of total revenue.
 
-Steps to Run This Project
-Database Setup:
+- **Category Performance**  
+  Determined which product categories drive repeat purchases versus one-time transactions.
 
-Open your SQL editor and run the queries in customer_behaviour.sql to create the table structure and import final_customer_data.csv.
+- **Seasonal Trends**  
+  Analyzed shopping frequency peaks to recommend optimal timing for marketing campaigns.
 
-Python Analysis:
+---
 
-Launch the Shopping-behaviour-analysis.ipynb in Jupyter Notebook or Google Colab to view the statistical analysis and data cleaning steps.
+## ▶️ Steps to Run the Project
 
-Visual Reporting:
+### 1️⃣ Database Setup
+- Open your SQL editor
+- Run queries from `customer_behaviour.sql`
+- Import `final_customer_data.csv` into the database
 
-Open customer_behaviour.pbix in Power BI Desktop to interact with the visual dashboard (ensure the data source path is updated to your local CSV file).
+### 2️⃣ Python Analysis
+- Open `Shopping-behaviour-analysis.ipynb`
+- Run the notebook in **Jupyter Notebook** or **Google Colab**
 
-Seasonal Trends: Analyzed shopping frequency peaks to recommend optimal timing for marketing campaigns.
+### 3️⃣ Power BI Dashboard
+- Open `customer_behaviour.pbix` in Power BI Desktop
+- Update the CSV data source path if required
+- Interact with slicers and KPIs
+
+---
+
+## 📌 Project Outcome
+This project delivers **actionable business insights** that help retail teams:
+- Target high-value customers
+- Improve product category strategy
+- Optimize marketing campaign timing
+
+---
+
+⭐ *If you like this project, feel free to star the repository!*  
